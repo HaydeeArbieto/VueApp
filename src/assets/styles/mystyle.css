@@ -1,0 +1,59 @@
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+
+#sideNav {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  width: 17rem;
+  height: 100vh;
+}
+
+.rounded-circle {
+    border-radius: 50%!important;
+}
+
+section.profil-section, section.utbildningar-section, section.praktik-section, section.kurser-section, section.yrkeserfarenhet-section, 
+section.språk-section, section.certifieringar-section, section.uppdrag-section  {
+    border-bottom: 1px solid #dee2e6;
+    border-color: #6495ED;
+}
+
+.right {
+  left: 0;
+}
+
+#my-picture {
+  border: .5rem solid #6495ED;
+}
+
+.container-fluid {
+  width: 70%;
+}
+
+#left-list {
+  list-style-type: none;
+}
+
+#språk-list{
+    text-align: left;
+}
+
+#links {
+  list-style-type: none;
+  padding: 0;
+}
+
+#links li {
+  display: inline-block;
+  margin: 0 10px;
+}
