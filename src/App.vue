@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/sogeti-logo.png">
-
+    
     <MyCV/>
   </div>
 </template>

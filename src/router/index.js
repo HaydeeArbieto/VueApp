@@ -1,4 +1,4 @@
-import Vue from 'vue'
+/*import Vue from 'vue'
 import Router from 'vue-router'
 import MyCV from '@/components/MyCV'
 
@@ -12,4 +12,4 @@ export default new Router({
       component: MyCV
     }
   ]
-})
+})*/

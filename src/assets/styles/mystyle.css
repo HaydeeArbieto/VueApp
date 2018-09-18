@@ -18,13 +18,18 @@
   height: 100vh;
 }
 
+header {
+  padding: 25px;
+  border-style: dashed;
+  border-color: #6495ED;
+}
+
 .rounded-circle {
     border-radius: 50%!important;
 }
 
-section.profil-section, section.utbildningar-section, section.praktik-section, section.kurser-section, section.yrkeserfarenhet-section, 
-section.språk-section, section.certifieringar-section, section.uppdrag-section  {
-    border-bottom: 1px solid #dee2e6;
+#title {
+    border-bottom: 2px solid #dee2e6;
     border-color: #6495ED;
 }
 
@@ -37,7 +42,7 @@ section.språk-section, section.certifieringar-section, section.uppdrag-section 
 }
 
 .container-fluid {
-  width: 70%;
+  width: 63%;
 }
 
 #left-list {
@@ -54,6 +59,12 @@ section.språk-section, section.certifieringar-section, section.uppdrag-section 
 }
 
 #links li {
+  padding-top: 25px;
   display: inline-block;
   margin: 0 10px;
+}
+
+#logosogeti {
+  height: 100px; 
+  width: 215px;
 }
