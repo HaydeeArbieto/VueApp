@@ -1,6 +1,5 @@
 <template>
-  <div class="hello">
-    
+  <div class="mycv">
     <div>
       <nav id="sideNav" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <img id="my-picture" class="img-fluid img-profile rounded-circle mx-auto mb-2" src="../assets/images/harbieto.jpg" >
@@ -30,32 +29,30 @@
               <a class="nav-link js-scrooll-trigger active" href="#sprok"> SPRÅK </a>
             </li>
             <li class="nav-item">
-              <router-link to="/foo">Kontaka mig</router-link>
+              <button><router-link to="/contact">Kontaka mig</router-link></button>
             </li>
         </ul>
       </nav>
     </div>
     <div id="split right" class="container-fluid p-0" >     
        <header>
-        <img id="logosogeti" src="../assets/images/logosogeti.jpg">
-
-       <ul id="links">
-        <li>
-          <a href="https://www.linkedin.com/in/haydee-arbieto/" target="_blank"> LinkedIn </a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/?hl=sv" target="_blank"> Instagram </a>
-        </li>
-        <li>
-          <a href="https://twitter.com/vuejs" target="_blank"> Twitter </a>
-        </li>
-        <li>
-          <a href="https://github.com/HaydeeArbieto?tab=repositories" target="_blank"> Github </a>
-        </li>
-      </ul>
+        <ul id="links">
+          <li>
+            <a href="https://www.linkedin.com/in/haydee-arbieto/" target="_blank"> LinkedIn </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/?hl=sv" target="_blank"> Instagram </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/vuejs" target="_blank"> Twitter </a>
+          </li>
+          <li>
+            <a href="https://github.com/HaydeeArbieto?tab=repositories" target="_blank"> Github </a>
+          </li>
+        </ul>
     </header>
       <div id="profil">
-        <h1>{{ msg }}</h1>
+        <h1 id="myname">Haydee Arbieto</h1>
         <h3>Fullstackutvecklare (Java, JavaScript, SQL)</h3>
         <section class="profil-section p-3 p-lg-4 d-flex d-column" id="profil">
           <p>Problemlösare med ett brinnande intresse för frontend- och backendutveckling som jag gärna utövar både professionellt och privat. Jag strävar efter kontinuerlig utveckling av mina kunskaper som fullstackutvecklare. Jag har erfarenhet i både frontend- och backend utveckling. Scrum och Kanban är agila arbetsätt som jag är van att jobba med.
@@ -123,10 +120,8 @@
           <p>Utvecklade Widgets (callout, banner, popup)
             Använde MVC, C#, .Net, JavaScript, JQuery. HTML och CSS.
 		        Jobbade agilt med Scrum och Kanbanp</p>
- 
-          <p>Lärarassistent	AcadeMedia 2009/08-2009/12	</p>
+          <p>Lärarassistent	AcadeMedia 2009/08-2009/12</p>
           <p>Lärarassistent på en Oracle systemutvecklare utbildningen på Academedia</p>
-
           <p>Dataprogrammerare Regesa(Peru) 2009/01- 03</p>
           <p>Dataprogrammerare TCC(Peru) 2009/04- 06</p>
           <br>
@@ -138,16 +133,16 @@
           <p> C3L Systemutvecklare med Java (400 Yh-p.)	2015/06–2017/05 </p>
           <p> AcadeMedia 	Oracle Systemutvecklare (300 Yh-p.) 2008/08–2009/12 </p>
           <p> Cibertec(Peru)	Datateknik/programmerare (Yh) 1995–1998 </p>
+          <br>
         </section>
 
         <section class="kurser-section" id="kurser">
           <h4 id="title">Kurser</h4>
           <p>Sogeti AB ISTQB Foundation 1 2018 </p>
-          <p>Vuxenutbildning Nacka Engelska 1,2,3,4,5 &nbsp;&nbsp;&nbsp; 2004</tab> </p>
+          <p>Vuxenutbildning Nacka Engelska 1,2,3,4,5 &nbsp;&nbsp;&nbsp;2004</tab> </p>
 			                              <p>Lokala nätverk A, Persondatorer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	2003 </p>
 			                              <p>IT-samordning, Databashantering &nbsp;&nbsp;&nbsp; 2002 </p>
 			                              <p>SFI, SAS grundläggande, A, B	2000, 2003	</p>
-        
         <br>
         </section>
 
@@ -159,7 +154,6 @@
 
         <section class="yrkeserfarenhet-section" id="yrkeserfarenhet">
           <h4 id="title"> Yrkeserfarenhet </h4>
-           <hr/>
           <p> IT-Konsult: Fullstack utvecklare Sogeti AB 2018– nu </p>
           <p> Personlig Assistant	JAG Brukarkooperativet 2010–2015 </p>
           <br>
@@ -176,114 +170,21 @@
         </section>
 
       </div>
-       <footer>
-          <a href="https://www.sogeti.se/" target="_blank"> Sogeti </a>
+       <footer id="cvfooter">
+         <p>Copyright © 2018 Haydee Arbieto. Allt innehåll tillhör Sogeti AB.</p>
        </footer>   
-    
-  <!--FORM-->
- <div>
-    <b-form @submit="onSubmit" @reset="onReset" v-if="show">
-      <b-form-group id="exampleInputGroup1"
-                    label="Email address:"
-                    label-for="exampleInput1"
-                    description="We'll never share your email with anyone else.">
-        <b-form-input id="exampleInput1"
-                      type="email"
-                      v-model="form.email"
-                      required
-                      placeholder="Enter email">
-        </b-form-input>
-      </b-form-group>
-
-      <b-form-group id="exampleInputGroup2"
-                    label="Full Name:"
-                    label-for="exampleInput2">
-        <b-form-input id="exampleInput2"
-                      type="text"
-                      v-model="form.name"
-                      required
-                      placeholder="Enter name">
-        </b-form-input>
-      </b-form-group>
-      
-      <b-form-group id="exampleInputGroup3"
-                    label="Subject:"
-                    label-for="exampleInput3">
-         <b-form-input id="exampleInput3">
-                      type="text"
-                      v-model="form.subject"
-                      required
-                      placeholder="Enter subject">
-        </b-form-input>
-      </b-form-group>
-
-      <b-form-group id="exampleInputGroup4"
-                    label="Country:"
-                    label-for="exampleInput4">
-        <b-form-input id="exampleInput4"
-                      type="text"
-                      v-model="form.country"
-                      required
-                      placeholder="Enter country">
-        </b-form-input>
-      </b-form-group>
-
-      <b-form-group id="exampleGroup5">
-        <b-form-checkbox-group v-model="form.checked" id="exampleChecks">
-          <b-form-checkbox value="me">Check me out</b-form-checkbox>
-          <b-form-checkbox value="that">Check that out</b-form-checkbox>
-        </b-form-checkbox-group>
-      </b-form-group>
-      <b-button type="submit" variant="primary">Submit</b-button>
-      <b-button type="reset" variant="danger">Reset</b-button>
-    </b-form>
-  </div>
-
-  <!--Finish FORM -->
    </div>
   </div>
 </template>
 
 <script>
   export default {
-      name: 'MyCV',
-      data () {
-        return {
-          msg: 'Haydee Arbieto',
-          form: {
-            email: '',
-            name: '',
-            subject: '',
-            country: '',
-            checked: []
-          },
-          show: true
-        }
-      },
-      methods: {
-        onSubmit (evt) {
-          evt.preventDefault();
-          alert(JSON.stringify(this.form));
-        },
-        onReset (evt) {
-         evt.preventDefault();
-
-          this.form.email = '';
-          this.form.name = '';
-          this.form.subject = '';
-          this.form.country = '';
-          this.form.checked = [];
-          this.show = false;
-          this.$nextTick(() => { this.show = true });
-        }
-      }
-    }
-
+    name: 'MyCV'
+  }
 </script>
-
+ 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
   h1, h2 {
     font-weight: normal;
   }
@@ -292,5 +193,9 @@
     text-align: left;
   }
 
+  #cvfooter p{
+    font-size: 12px;
+    text-align: center;
+  }
 </style>
 
