@@ -1,0 +1,14 @@
+#divprincipalcontact { 
+    display: table;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#form-contact {
+    border-style: solid;
+    width: 700px;
+    border-width: 5px;
+    border-color: #6495ED;
+    display: table-cell;
+    vertical-align: middle;
+}

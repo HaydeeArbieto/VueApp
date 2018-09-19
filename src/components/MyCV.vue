@@ -118,8 +118,8 @@
           <h4 id="title">Praktik</h4>
           <p>Webbutvecklare	Ungapped 2016/11–2017/04 </p>
           <p>Utvecklade Widgets (callout, banner, popup)
-            Använde MVC, C#, .Net, JavaScript, JQuery. HTML och CSS.
-		        Jobbade agilt med Scrum och Kanbanp</p>
+             Använde MVC, C#, .Net, JavaScript, JQuery. HTML och CSS.
+		        Jobbade agilt med Scrum och Kanban</p>
           <p>Lärarassistent	AcadeMedia 2009/08-2009/12</p>
           <p>Lärarassistent på en Oracle systemutvecklare utbildningen på Academedia</p>
           <p>Dataprogrammerare Regesa(Peru) 2009/01- 03</p>
@@ -172,30 +172,19 @@
       </div>
        <footer id="cvfooter">
          <p>Copyright © 2018 Haydee Arbieto. Allt innehåll tillhör Sogeti AB.</p>
-       </footer>   
+       </footer>
    </div>
   </div>
 </template>
 
 <script>
-  export default {
-    name: 'MyCV'
-  }
+export default {
+  name: "MyCV"
+};
 </script>
  
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  h1, h2 {
-    font-weight: normal;
-  }
-
-  h4, p {
-    text-align: left;
-  }
-
-  #cvfooter p{
-    font-size: 12px;
-    text-align: center;
-  }
+  @import "../assets/styles/mycvstyle.css";
 </style>
 

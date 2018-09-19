@@ -1,0 +1,70 @@
+h4,
+p {
+  text-align: left;
+}
+
+#sideNav {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  width: 17rem;
+  height: 100vh;
+}
+  
+#header-cv {
+  padding: 25px;
+  border-style: dashed;
+  border-color: #6495ED;
+}
+  
+.rounded-circle {
+  border-radius: 50%!important;
+}
+  
+#title {
+    border-bottom: 2px solid #dee2e6;
+    border-color: #6495ED;
+}
+  
+#myname {
+    font-family: Impact, Charcoal, sans-serif
+}
+  
+.right {
+    left: 0;
+}
+  
+#my-picture {
+    border: .5rem solid #6495ED;
+}
+  
+.container-fluid {
+    width: 63%;
+}
+  
+#left-list {
+    list-style-type: none;
+}
+  
+#språk-list{
+   text-align: left;
+}
+  
+#links {
+    list-style-type: none;
+    padding: 0;
+}
+  
+#links li {
+    padding-top: 25px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#cvfooter p {
+    font-size: 12px;
+    text-align: center;
+}

@@ -1,8 +1,8 @@
 <template>
-  <div class="contact">
-    <h1>Contact me</h1>
+  <div id="divprincipalcontact" class="contact">
+    
      <!--FORM-->
-    <div>
+    <div id="form-contact">
         <b-form @submit="onSubmit" @reset="onReset" v-if="show">
           <b-form-group id="exampleInputGroup1"
                         label="Email address:"
@@ -67,12 +67,12 @@ export default {
   name: "Contact",
   data() {
     return {
-      msg: "Haydee Arbieto",
+      msg: '',
       form: {
-        email: "",
-        name: "",
-        subject: "",
-        country: "",
+        email: '',
+        name: '',
+        subject: '',
+        country: '',
         checked: []
       },
       show: true
@@ -86,16 +86,19 @@ export default {
     onReset(evt) {
       evt.preventDefault();
 
-      this.form.email = "";
-      this.form.name = "";
-      this.form.subject = "";
-      this.form.country = "";
+      this.form.email = '';
+      this.form.name = '';
+      this.form.subject = '';
+      this.form.country = '';
       this.form.checked = [];
       this.show = false;
       this.$nextTick(() => {
-        this.show = true;
+        this.show = true
       });
     }
   }
 };
 </script>
+<style>
+  @import "../assets/styles/contactstyle.css";
+</style>
