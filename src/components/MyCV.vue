@@ -55,34 +55,48 @@
         <h1 id="myname">Haydee Arbieto</h1>
         <h3>Fullstackutvecklare (Java, JavaScript, SQL)</h3>
         <section class="profil-section p-3 p-lg-4 d-flex d-column" id="profil">
-          <p>Problemlösare med ett brinnande intresse för frontend- och backendutveckling som jag gärna utövar både professionellt och privat. Jag strävar efter kontinuerlig utveckling av mina kunskaper som fullstackutvecklare. Jag har erfarenhet i både frontend- och backend utveckling. Scrum och Kanban är agila arbetsätt som jag är van att jobba med.
-            Jag programmerar med stor noggranhet, är lösningsorienterat och kontinuerligt strävar jag efter att fördjupa mina kunskaper inom teknik och systemutveckling. Jag är även en mycket kommunikativ, initiativtagande och stresstålig person. 
-            En av mina stora passion är att hjälpa andra människor. 
-            En stor del av min yrkeserfarenhet har jag fått från mina flera år i vården, detta är en positiv erfarenhet som bidragit till att jag har god social förmåga, samarbetar bra med olika människor i små och stora team. 
+          <p>
+            Problemlösare med ett brinnande intresse för frontend- och backendutveckling som jag gärna utövar både professionellt och privat. Jag strävar efter kontinuerlig utveckling av mina kunskaper som fullstackutvecklare. Jag har erfarenhet i både frontend- och backend utveckling. Scrum och Kanban är agila arbetsätt som jag är van att jobba med.
+            Jag programmerar med stor noggranhet, är lösningsorienterat och kontinuerligt strävar jag efter att fördjupa mina kunskaper inom teknik och systemutveckling. Jag är även en mycket kommunikativ, initiativtagande och stresstålig person.
+            Jag har deltagit i flera projekt där jag har jobbat med portallösningar, applikationsutveckling och databasintegration. Hon har erfarenhet av nyutvecklingsprojekt samt även drift- och underhållsprojekt.
+            En av mina stora passion är att hjälpa andra människor.
+            Min kommunikationsprofil är en mycket kommunikativ, initiativtagande och empatisk person. Jag har en positiv attityd och god samarbetsförmåga med kunder och kollegor.
           </p>
         </section>
     
-        <section class="uppdrag-section" id="uppdrag" >
+        <section class="uppdrag-section" id="uppdrag">
           <h4 id="title">Uppdrag/Projekt:</h4>
-          <p><b> Företag:</b> Husqvarna AB-06/2018-08/2018 </p>
+          <p><b> Företag:</b> HSB - 11/2018-08/2019 </p>
+          <p><b> Roll:</b> Fullstack utvecklare</p>
+          <p><b> Projekt:</b> Utveckling, förvaltning och dokumentation av MittHSB hemsida</p>
+          <p><b> Uppdrag:</b> Mitt uppdrag var att försätta utveckla, fixa buggarna och dokumentera den tekniska delen av MittHSB hemsidan för vidare utveckling.</p>
+          <p><b> Tekniker/Verktyg:</b> Angular, JavaScript, Typescrypt, CSS, C#/.Net, .Net Core 2, .Net MVC Framework, Azure DevOps, Razor, HTML, CSS, EPiServer, Sourcetree, Git Bash, Visual Studio Code, Visual Studio, SQL Server, Agilt med Scrum och Kanban.</p>
+          <br>
+          <p><b> Företag:</b> ICA Spara AB - 09/2018-10/2019 </p>
+          <p><b> Roll:</b> App Testare - Crowd Testare </p>
+          <p><b> Projekt:</b> Professionell Crowd Testning av mobil applikation för ekonomiskt stöd.</p>
+          <p><b> Uppdrag:</b> Utvärdera kvaliteten och användarupplevelsen av kundens mobilapplikation. Själva applikationen tillhandahöll användarna med ekonomisk vägledning och stöd baserat på registrerade banker och transaktionsdata. Uppdraget genomfördes med en Professionell Crowd Test-lösning planering, genomförande, rapportering, hantering och ge direkt feedback till kunden.</p>
+          <p><b> Tekniker/Verktyg:</b> Mobila enheter iOS/Android, Visual Studio App Center, TestFlight, Professionell Crowd testning, JIRA, InVisionApp, Zeplin, Microsoft Excel, Google Drive.</p>
+          <br>
+          <p><b> Företag:</b> Husqvarna AB - 06/2018-08/2018 </p>
           <p><b> Roll:</b> Backend utvecklare</p>
           <p><b> Projekt:</b>Utveckla en mobilapplikation </p>
           <p><b> Uppdrag:</b>Teamets uppgift var att fortsätta bygga en mobilapp och lösa buggarna på den applikationen.
           <p><b> Tekniker/Verktyg:</b> Java, Intellij, Docker, Postman, Zeplin, Bamboo, XConfluence, Jira, Bitbucket och Datadog.</p>
           <br>
-          <p><b> Företag:</b> Sogeti AB-05/2018-06/2018 </p>
+          <p><b> Företag:</b> Sogeti AB - 05/2018-06/2018 </p>
           <p><b> Roll:</b>Fullstack utvecklare </p>
           <p><b> Projekt:</b> Utveckla en chatbot för en kundtjänst. </p>
           <p><b> Uppdrag:</b> Haydee skapade konversationen i IBM Watson tjänster och kopplade med JavaScript för att kunna bygga chatboten. </p>
           <p><b> Tekniker/Verktyg:</b> Javascript, NodeJS, Nodemon, IBM Watson Bluemix, HTML, CSS, REST API, Angular, Bootstrap och Visual Studio.</p>
           <br>
-          <p><b> Företag:</b>Sogeti AB-02/2018-04/2018 </p>
+          <p><b> Företag:</b>Sogeti AB - 02/2018-04/2018 </p>
           <p><b> Roll:</b> Fullstack utvecklare </p>
           <p><b> Projekt:</b> Utveckla Magic Mirror- En spegel som fungerar som en user interface och används med röststyrningen för att föra en dialog med en användare. Spegeln skall kunna ta en bild och gör en ansikt analysis på talaren för att få en uppfattning om känslorna hos användaren. </p>
           <p><b> Uppdrag:</b> Haydee använde IBM Watson tjänster och JavaScript för att tillsammans med teamet kunna skapa en dialog mellan människan och spegeln. </p>
           <p><b> Tekniker/Verktyg:</b> Javascript, NodeJS, Express, IBM Watson Bluemix, Microsoft tjänster, HTML, CSS, Visual Studio, MySQL och MySQL Workbench. </p>
           <br>
-          <p><b> Företag: </b> Ungapped-11/2016-05/2017	</p>
+          <p><b> Företag: </b> Ungapped - 11/2016-05/2017	</p>
           <p><b> Roll: </b> Fullstack utvecklare </p>
           <p><b> Projekt: </b> Skapa Witgets </p>
           <p><b> Uppdrag: </b> Haydees uppdrag var att utveckla widgets i en web applikation för att hjälpa sina kunder i deras marknadsföring. Lösningen valdes efter kundernas önskemål genom upplägning av widgets. Arbetet omfattade bl. a. callout, banner, popup. Widgets genererades dynamiskt. </p>
@@ -182,9 +196,7 @@ export default {
   name: "MyCV"
 };
 </script>
- 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
+ <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   @import "../assets/styles/mycvstyle.css";
 </style>
-
